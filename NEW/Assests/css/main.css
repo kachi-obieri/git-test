@@ -1,0 +1,105 @@
+body{
+    background: #FF6212;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navbar-brand{
+    color: #FF6212;
+    font-size: 32px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.navbar{
+    position: fixed;
+}
+.nav-link active{
+    background-color: #FF6212;
+}
+.nav-item{
+    font-size: 17px;
+    width: 140px;
+    margin-left: 25px;
+}
+.dash{
+    background-color: #FF6212;
+    border-radius: 3px;
+    font-weight: 500 !important;
+}
+.nav-item:hover{
+    background-color: #ff783e;
+    border-radius: 3px;
+    transition: all .3s;
+}
+.navbar-nav{
+    text-align: center;
+    padding-left: 30px;
+}
+.collapse{
+    justify-content: space-between;
+}
+
+
+
+
+.bal{
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 3px;
+    margin-right: 20px;
+}
+.Main-sec{
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.trans{
+    width: 43%;
+    float: right;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-right: -10%;
+    margin-left: auto;
+    height: 60px;
+
+}
+.transactions{
+    justify-content: space-between;
+    margin-left: -5%;
+    padding: 10px;
+}
+.da-trans{
+    text-decoration: none;
+    padding: 5px;
+    background-color: #ff783e;
+    border-radius: 3px;
+    color: black;
+    width: 160px;
+    text-align: center;
+}
+.da-trans:hover{
+    background-color: #FF6212;
+    color: #000;
+    transition: all .3s;
+}
+.ultra{
+    margin-left: 70px ;
+    padding: 40px 114px 40px 114px;
+    line-height: 4;
+    background-color: #fff;
+    border-radius: 3px;
+    text-align: center;
+    width: 500px;
+}
+.ultra-text{
+    text-decoration: none;
+    color: #000;
+    padding: 7px 14px 7px 14px;
+    background-color: #ff783e;
+    border-radius: 3px;
+    width: 200px;
+    /* font-size: 200px; */
+}
+.ultra-text:hover{
+    background-color: #FF6212;
+    color: #000;
+    transition: all .3s;
+}
