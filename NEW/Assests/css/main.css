@@ -18,6 +18,8 @@ body{
     font-size: 17px;
     width: 140px;
     margin-left: 25px;
+    
+    border-bottom: 2px solid #fff;
 }
 .dash{
     background-color: #FF6212;
@@ -27,7 +29,8 @@ body{
 .nav-item:hover{
     background-color: #ff783e;
     border-radius: 3px;
-    transition: all .3s;
+    transition: all 3s;
+    border-bottom: 2px solid #000;
 }
 .navbar-nav{
     text-align: center;
@@ -70,6 +73,7 @@ body{
     text-decoration: none;
     padding: 5px;
     background-color: #ff783e;
+    border-bottom: 2px solid #ff783e;
     border-radius: 3px;
     color: black;
     width: 160px;
@@ -79,6 +83,7 @@ body{
     background-color: #FF6212;
     color: #000;
     transition: all .3s;
+    border-bottom: 2px solid #000;
 }
 .ultra{
     margin-left: 70px ;
